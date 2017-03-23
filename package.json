@@ -8,10 +8,9 @@
     "yc",
     "progress"
   ],
-  "homepage": "http://github.com/react-component/notification",
+  "homepage": "https://github.com/seentaoInternetOrganization/progress",
   "maintainers": [
-    "yiminghe@gmail.com",
-    "skyking_H@hotmail.com"
+
   ],
   "files": [
     "lib",
@@ -19,10 +18,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:react-component/notification.git"
+    "url": "https://github.com/seentaoInternetOrganization/progress.git"
   },
   "bugs": {
-    "url": "http://github.com/react-component/notification/issues"
+    "url": "https://github.com/seentaoInternetOrganization/progress/issues"
   },
   "license": "MIT",
   "main": "lib/index",
