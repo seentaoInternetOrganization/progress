@@ -63,6 +63,7 @@ const Progress = React.createClass({
     }
     return (
       <div className="kcxq_00_02" style={{width:width}}>
+      qqqq
           <div className={percentNum==1?"kcxq_00_03_full":"kcxq_00_03"} style={{marginLeft:marginLeft-1}}>{percentStr}</div>
           <div className="kcxq_00_04">
               <div className={percentNum==1?"kcxq_00_05_full":"kcxq_00_05"} style={{width:marginLeft}}></div>
