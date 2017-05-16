@@ -1,6 +1,6 @@
 {
   "name": "yc-progress",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "progress component for react",
   "keywords": [
     "react",
@@ -26,7 +26,7 @@
   "license": "MIT",
   "main": "lib/index",
   "config": {
-    "port": 8000
+    "port": 8888
   },
   "scripts": {
     "build": "rc-tools run build",

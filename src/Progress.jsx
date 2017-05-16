@@ -23,8 +23,8 @@ const Progress = React.createClass({
     return {
       prefixCls: 'rc-notification',
       animation: 'fade',
-      percent: 10,
-      width: 200,
+      percent: 0,
+      width: 1200,
       style: {
         top: 65,
         left: '50%',
@@ -56,16 +56,17 @@ const Progress = React.createClass({
       }
     }
     let marginLeft = 0;
-    if(width*percentNum>(width-48)){
-      marginLeft = width-48;
+    let isFull = width*percentNum>(width-48);
+    if(isFull){
+      marginLeft = width-49;
     }else{
       marginLeft = width*percentNum;
     }
     return (
       <div className="kcxq_00_02" style={{width:width}}>
-          <div className={percentNum==1?"kcxq_00_03_full":"kcxq_00_03"} style={{marginLeft:marginLeft-1}}>{percentStr}</div>
+          <div className={percentNum==1?"kcxq_00_03_full":"kcxq_00_03"} style={{marginLeft:marginLeft}}>{percentStr}</div>
           <div className="kcxq_00_04">
-              <div className={percentNum==1?"kcxq_00_05_full":"kcxq_00_05"} style={{width:marginLeft}}></div>
+              <div className={percentNum==1?"kcxq_00_05_full":"kcxq_00_05"} style={{width:marginLeft+1}}></div>
           </div>
       </div>
     );
